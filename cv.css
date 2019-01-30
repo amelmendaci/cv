@@ -1,0 +1,89 @@
+body{
+background-color : grey;
+
+}
+.page{
+   width: 800px;  
+   margin: auto; /*justifie les lignes, dont la dernière ligne, entraînant un espacement potentiellement important entre les mots*/
+   font-family: 'Source sans Pro', Calibri, Tohama, sans-serif;                /*police */
+   font-size: 16px;
+   border : 5px solid #00008B;
+   border-radius: 10px;
+   box-shadow: 2px 3px 4 px black;
+   padding : 20px;
+   background-color : white;
+   
+   	
+}
+.Menu{
+ margin-bottom: 30px;
+   text-align: justify;
+    }
+
+.Menu > li > a{ 
+color: #000000;  
+text-decoration: none; 
+/*padding : 10px; pour faire de l'espace */
+}
+.section1 {
+    height : 300px;
+}
+.photo {
+float: right;}
+
+.info {
+float: left;}
+
+h1{
+text-align : center; 
+}
+
+h2{
+    font-size: 25px; /*la taile d'écriture*/ 
+    color: #00008B; 
+    font-style: italic;
+    border-bottom: 3px solid #00008B;
+ }
+h4{
+    color: #00008A; /*la densité de clouer rouge,verte et bleu*/
+    font-style: italic;    
+}
+.sectio2{
+     margin-bottom: 30px;
+    text-align: justify;
+}
+
+  
+.section3{
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.section4{
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.section5{
+    margin-bottom: 30px;
+    text-align: justify;    
+}
+
+.section6{
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+
+.mdl-slider__container {
+    background-color: white !important; /* Met le fond de la barre en blanc */
+    position: fixed !important; /* Permet de définir la position de la barre comme fixe */
+    top: 0; /* Défini la postion de la barre en haut */
+    z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
+    width: 100vw; /* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran */
+}
+
+
+
+
+
