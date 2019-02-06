@@ -5,14 +5,17 @@ window.addEventListener("scroll", function() {
 
 
 document.getElementById('progress_bar').value = deplacement; 
+console.log(deplacement);
+
 });
 
 
 function myScroll() { 
-    let progress = document.getElementById('progress_bar').value;
+    progress = document.getElementById('progress_bar').value;
     
     value = ((document.body.offsetHeight-window.innerHeight)* progress) / 100;
     
     window.scroll(0, value) 
 }
+
 
