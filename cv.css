@@ -1,7 +1,32 @@
+
+
 body{
 background-color : grey;
+}
+
+nav ul {  
+list-style-type: none;
+padding : 0px; 
+text-align : center; 
+background-color: #333333;
+}
+nav li {
+display: inline-block;
+height: 40 px;
+width: 100 px;
+padding : 15px;
+border-right: 1px solid #FFFFFF;
+line-height: 40 px;
+color: white;
+text-decoration-line: none;  
+text-align : center; 
 
 }
+nav li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 .page{
    width: 800px;  
    margin: auto; /*justifie les lignes, dont la dernière ligne, entraînant un espacement potentiellement important entre les mots*/
@@ -12,22 +37,14 @@ background-color : grey;
    box-shadow: 2px 3px 4 px black;
    padding : 20px;
    background-color : white;
-   
-   	
 }
-.Menu{
- margin-bottom: 30px;
-   text-align: justify;
-    }
 
-.Menu > li > a{ 
-color: #000000;  
-text-decoration: none; 
-/*padding : 10px; pour faire de l'espace */
-}
+
 .section1 {
-    height : 300px;
+ height : 300px;
 }
+
+
 .photo {
 float: right;}
 
@@ -82,7 +99,6 @@ h4{
     z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
     width: 100vw; /* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran */
 }
-
 
 
 
